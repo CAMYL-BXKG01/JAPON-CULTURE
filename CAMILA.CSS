@@ -1,0 +1,210 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    background-image: url("IMAGEN5.jpg");
+    background-size: cover;
+    font-family: Georgia, serif;
+}
+
+/* HEADER */
+header{
+    width: 95%;
+    height: 140px;
+
+    /* IMAGEN DIFERENTE */
+    background-image: url("HEADER.jpg");
+    background-size: cover;
+    background-position: center;
+
+    margin: 15px auto;
+    text-align: center;
+    padding-top: 20px;
+    border: 3px solid #000;
+}
+
+header h1{
+    font-size: 45px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+header p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+/* NAV */
+nav{
+    width: 100%;
+    height: 100px;
+
+    /* IMAGEN DIFERENTE */
+    background-image: url("NAV.jpg");
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    padding-top: 15px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+nav h2{
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px 3px black;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0.6);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* SECTION */
+section{
+    width: 68%;
+
+    /* IMAGEN DIFERENTE */
+    background-image: url("SECTION.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding: 20px;
+    border: 3px solid #000;
+    color: #00ffff;
+}
+
+section h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px black;
+}
+
+section p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+section img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* TABLA */
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.7);
+    color: black;
+}
+
+table th{
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+table td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* ASIDE */
+aside{
+    width: 28%;
+
+    /* IMAGEN DIFERENTE */
+    background-image: url("ASIDE.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding: 20px;
+    border: 3px solid #000;
+    text-align: center;
+    color: #00ffff;
+}
+
+aside h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 3px black;
+}
+
+aside p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+aside img{
+    width: 90%;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 130px;
+
+    /* IMAGEN DIFERENTE */
+    background-image: url("FOOTER.jpg");
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    border-top: 3px solid black;
+}
+
+footer h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 3px black;
+}
+
+footer p{
+    font-size: 18px;
+    text-shadow: 2px 2px 3px black;
+}
